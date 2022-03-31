@@ -1,0 +1,7 @@
+country = ["USA", "Russia", "Japan", "Canada", "Germany"] #а мине пуфик что не кортеж)))
+print(*country)
+num = input("Введите одну страну: ")
+index = country.index(num)
+print(f"Индекс этой страны в списке: {index}")
+txt = int(input("Введите индекс выбранной страны: "))
+print("Ваша страна: ", (country[txt]))
